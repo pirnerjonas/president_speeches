@@ -51,7 +51,7 @@ def plot_most_frequent_nouns(president_topics, TOP_N):
     ax.barh(list(aspects), list(values),color=color_list)
     ax.set_xlabel('Frequency')
     fig.tight_layout()
-    fig.savefig('images/most_frequent_nouns.pdf')
+    fig.savefig('images/most_frequent_nouns.png')
 
 def plot_war_and_peace_time(tfidf_df):
     fig, ax = plt.subplots(figsize=(12,4))
@@ -66,7 +66,7 @@ def plot_war_and_peace_time(tfidf_df):
     ax.legend(title='Noun', shadow=True, fancybox=True)
     plt.xticks(rotation=45)
     fig.tight_layout()
-    fig.savefig('images/war_and_peace_time.pdf')
+    fig.savefig('images/war_and_peace_time.png')
 
 def plot_words_peek_years(tfidf_df):
     year_list = [1813, 1865, 1957, 1973]
@@ -82,7 +82,7 @@ def plot_words_peek_years(tfidf_df):
     ax[1,1].set_xlabel('tfidf score')
     ax[1,0].set_xlabel('tfidf score')
     fig.tight_layout()
-    fig.savefig('images/peek_years.pdf')
+    fig.savefig('images/peek_years.png')
 
 
 # extract topics
