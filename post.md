@@ -18,6 +18,7 @@ excerpt of Obamas inaugural address in 2009
 In this blog post I will analyze the **inaugural address corpus** which contains 55 speeches from the years 1789 till 2009. 
 As a european, with only a slight interest in history, it was especially interesting for me to find out which topics are typically discussed in the speeches.
 
+![obama](images/barack-obama.jpg)
 
 #### What are some common topics in the speeches? 
 
