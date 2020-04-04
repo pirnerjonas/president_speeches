@@ -27,7 +27,7 @@ While there are several research areas that deal intensively with this "topic" (
 
 Within this project nouns are topics. Of course this is a simplification because this is not always correct (e.g. xxx). But if we now take a look at which nouns occur most often in the corpus, it becomes clear that it is already a very good approximation. 
 
-> plot1
+![most_freq](images/most_frequent_nouns.png)
 
 Many of the extracted nouns actually represent thematic fields which are or were relevant in the history of the USA. The most common noun in the corpus is "people" which makes sense since presidents have always taken into account the interests of voters. I found two of the words here particularly interesting. 
 
@@ -41,7 +41,7 @@ To examine the importance of the concepts I wanted to move away from absolute fr
 
 The following plot shows the tfidf score of the nomen war and peace over time.
 
-> plot2
+![peek](images/peek_years.png)
 
 Looking at the line which represents the "war" noun reveals that there are two documents in which the word has a very high expressivness. After a quick google search - apologies for my bad history knowledge - I refreshed my highschool knowledge of history and once again found out about the wars going on in 1813 and 1865. The spikes for the peace curve are happening at the time of the second world war and the vietnam war.
 
@@ -49,7 +49,7 @@ Looking at the line which represents the "war" noun reveals that there are two d
 
 Now that we know about these peek times of war and peace it would be nice to get a more detailed view on what the presidents were speaking about during these times. Foreach of the corresponding speeches we are looking at the top 10 words according to their tfidf score.
 
-> plot3
+![most_freq](images/war_and_peace_time.png)
 
 It becomes apparent that for the two war documents nouns like "massacre", "battle", "offense" and "savage" seem to be the most important words. The famous phrase of Abraham Lincoln "malice toward none" when he stated his policy toward the defeated Confederacy in 1865 shows up partly with the noun "malice". 
 
