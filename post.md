@@ -1,24 +1,10 @@
 ### War and Peace in America
 
-
-(inaugural address)
-On tuesday, november 3, 2020, a president is elected for the 46th time in the history of the United States of America. The election of the president will be followed by the inauguration. After the president has recitated the presidential oath of office he or she will give a speech to the people. This speech is the **inaugural address** which gives the president the chance to inform the people of his or her intentions.  
-
-My fellow citizens:
-
-I stand here today humbled by the task before us, grateful for the trust you have bestowed, mindful of the sacrifices borne by our ancestors. I thank President Bush for his service to our nation, as well as the generosity and cooperation he has shown throughout this transition.
-
-Forty-four Americans have now taken the presidential oath. The words have been spoken during rising tides of prosperity and the still waters of peace. Yet, every so often the oath is taken amidst gathering clouds and raging storms. At these moments, America has carried on not simply because of the skill or vision of those in high office, but because We the People have remained faithful to the ideals of our forbearers, and true to our founding documents.
-
-...
-
-excerpt of Obamas inaugural address in 2009
-
-(dataset)
-In this blog post I will analyze the **inaugural address corpus** which contains 55 speeches from the years 1789 till 2009. 
-As a european, with only a slight interest in history, it was especially interesting for me to find out which topics are typically discussed in the speeches.
+On tuesday, november 3, 2020, a president is elected for the 46th time in the history of the United States of America. The election of the president will be followed by the inauguration. After the president has recitated the presidential oath of office he or she will give a speech to the people. This speech is called **inaugural address** and gives the president the chance to inform the people of his or her intentions.  
 
 ![obama](images/barack-obama.jpg)
+
+In this blog post I will analyze the **inaugural address corpus** which contains the speeches from the years 1789 till 2009. During this extremely long period of time the presidents of the USA had to face various difficulties. In order to refresh my knowledge of american history, let's see what topics the presidents have had to deal with in the past.
 
 #### What are some common topics in the speeches? 
 
@@ -42,7 +28,7 @@ To examine the importance of the concepts I wanted to move away from absolute fr
 
 The following plot shows the tfidf score of the nomen war and peace over time.
 
-![peek](images/peek_years.png)
+![most_freq](images/war_and_peace_time.png)
 
 Looking at the line which represents the "war" noun reveals that there are two documents in which the word has a very high expressivness. After a quick google search - apologies for my bad history knowledge - I refreshed my highschool knowledge of history and once again found out about the wars going on in 1813 and 1865. The spikes for the peace curve are happening at the time of the second world war and the vietnam war.
 
@@ -50,7 +36,7 @@ Looking at the line which represents the "war" noun reveals that there are two d
 
 Now that we know about these peek times of war and peace it would be nice to get a more detailed view on what the presidents were speaking about during these times. Foreach of the corresponding speeches we are looking at the top 10 words according to their tfidf score.
 
-![most_freq](images/war_and_peace_time.png)
+![peek](images/peek_years.png)
 
 It becomes apparent that for the two war documents nouns like "massacre", "battle", "offense" and "savage" seem to be the most important words. The famous phrase of Abraham Lincoln "malice toward none" when he stated his policy toward the defeated Confederacy in 1865 shows up partly with the noun "malice". 
 
