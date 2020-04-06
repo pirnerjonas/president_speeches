@@ -79,6 +79,7 @@ def plot_words_peek_years(data, TOP_N):
     row_ind = [0,0,1,1]
     col_ind = [0,1,0,1]
     fig, ax = plt.subplots(ncols=2,nrows=2, sharex=True)
+    fig.suptitle('Most important nouns/topics for peak speeches')
     for president, year, color, i, j in zip(president_list, year_list, 
                                             color_list, row_ind, col_ind):
         # top words with corresponding tfidf
@@ -87,8 +88,7 @@ def plot_words_peek_years(data, TOP_N):
         ax[i,j].set_title(f'{president} {year}')
     ax[1,1].set_xlabel('tfidf score')
     ax[1,0].set_xlabel('tfidf score')
-    ax.set_title('Most important nouns/topics for peeks')
-    fig.tight_layout()
+    fig.tight_layout(rect=[0, 0.03, 1, 0.95])
     fig.savefig('images/peek_years.png')
 
 
