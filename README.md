@@ -9,4 +9,4 @@ In this repository I analyze the **inaugural address corpus**. This textual data
 - *"What were important words during war and peace peaks?"*
 
 ### Results ###
-The main findings of the code can be found in the `post.md` file which resembles a blog post. 
+The main findings of the code can be found at https://pirnerjonas.github.io/2020/04/07/war-and-peace.html
